@@ -1,6 +1,8 @@
 spring:
   application:
     name: "configserver"
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.amqp.RabbitAutoConfiguration
   profiles:
     active: native
   cloud:
@@ -13,3 +15,12 @@ server:
 
 encrypt:
   key: "67440cb3ee74462f10ca4272"
+
+management:
+  health:
+    rabbit:
+      enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
