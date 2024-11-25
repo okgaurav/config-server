@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: "crypto"
+server:
+  port: 8081
+
+profileDetails:
+  crypto:
+    message: "Welcome to Crypto Conversion related main profile"
+    contactDetails:
+      name: "Gaurav Verma"
+      role: "ADMIN"
+      email: "dev.gauravverma@gmail.com"

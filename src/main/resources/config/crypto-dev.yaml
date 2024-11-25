@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: "crypto"
+server:
+  port: 8080
+
+profileDetails:
+  crypto:
+    message: "Welcome to Crypto Conversion related Development profile"
+    contactDetails:
+      name: "Shiv Patel"
+      role: "DEV"
+      email: "dev.shivPatel@gmail.com"
