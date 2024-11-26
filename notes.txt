@@ -1,0 +1,11 @@
+Add a webhook:
+    * When you create a config through git-hub repo.
+    * create a web hook in github.com > repo> Create a webhook
+    * Payload:
+        * URL: http://localhost:8071/monitor >><< Dont use that << hookdeck.com >>
+        * Add a destination >> run commands
+        * in cmd : /monitor
+        >> Hook URL is created
+    * content Type : Json
+    * select push event
+
