@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: "exchange"
+server:
+  port: 8079
+
+profileDetails:
+  crypto:
+    message: "Welcome to Exchange related main profile"
+    contactDetails:
+      name: "Shiv Verma"
+      role: "CASHIER"
+      email: "{cipher}3149daed4851a2893f216443fb6787543a136a0ef4845b4f6317a22fa6e4854a5655bda150c785a09f36a791067c6d71"

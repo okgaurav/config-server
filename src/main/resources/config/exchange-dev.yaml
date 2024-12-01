@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: "exchange"
+server:
+  port: 8078
+
+profileDetails:
+  crypto:
+    message: "Welcome to Exchange related Development profile"
+    contactDetails:
+      name: "Raj Patel"
+      role: "DEV"
+      email: "{cipher}19500d43c8a22941f11c1c508ed472bf927c7deb18e5e9e4aea727ea680a945420247bfb56b287509590e7c14422f602"
